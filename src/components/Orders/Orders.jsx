@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../../context/GlobalData';
+import { MdDelete } from 'react-icons/md';
 import { FaBookOpenReader } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 
 const Product = () => {
 
-    const { orders, customers } = useContext(GlobalContext);
+    const { orders, customers, deleteOrder } = useContext(GlobalContext);
 
     return (
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -35,7 +36,7 @@ const Product = () => {
                             Total Price
                         </th>
                         <th scope="col" className="px-6 py-3">
-                            Details
+                            Actions
                         </th>
                     </tr>
                 </thead>
@@ -48,7 +49,7 @@ const Product = () => {
                             <td class="p-4">
                                 {order.id}
                             </td>
-                            
+
                             <td className="px-6 py-4">
                                 {new Date(order.createdAt).toLocaleDateString()}
                             </td>
@@ -58,11 +59,16 @@ const Product = () => {
                             <td className="px-6 py-4">
                                 Rs. {order.totalPrice}
                             </td>
-                            <Link to={`/Orders/order-details/${order.id}`}>
+
                             <td className="text-lg px-6 py-4">
-                                <FaBookOpenReader />
+                            <p className=' flex items-center'>
+                                <Link to={`/Orders/order-details/${order.id}`}>
+                                    <FaBookOpenReader className='mr-5 cursor-pointer' />
+                                </Link>
+                                <MdDelete onClick={() => deleteOrder(order.id)} className='cursor-pointer' />
+                                </p>
                             </td>
-                            </Link>
+
                         </tr>
                     ))}
                 </tbody>

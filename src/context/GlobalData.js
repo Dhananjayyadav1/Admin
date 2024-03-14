@@ -65,6 +65,11 @@ const GlobalData = ({ children }) => {
     setProducts(products.filter((_, i) => i !== index));
   }
 
+  const deleteOrder = (OrderId) => {
+    const index = orders.findIndex(order => order.id === OrderId);
+    setOrders(orders.filter((_, i) => i !== index));
+  }
+
   const deleteCustomer = (i) => {
     setCustomers(customers.filter((_, idx) => idx !== i));
   }
@@ -78,7 +83,7 @@ const GlobalData = ({ children }) => {
   }
 
   return (
-    <GlobalContext.Provider value={{ products, addProduct, updateProduct, deleteProduct, customers, deleteCustomer, orders, calculateTotal, allCategories, totalProducts, totalStock, outOfStock, updateStatus }}>
+    <GlobalContext.Provider value={{ products, addProduct, updateProduct, deleteProduct, customers, deleteCustomer, deleteOrder, orders, calculateTotal, allCategories, totalProducts, totalStock, outOfStock, updateStatus }}>
       {children}
     </GlobalContext.Provider>
   );

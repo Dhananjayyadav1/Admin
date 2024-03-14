@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Admin Panel for Ecommerce platforms
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+![Screenshot (28)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/6ff09cda-ef86-44d9-a7bb-e066bb093d28)
 
+## Description
+
+The Ecommerce Admin Website is a comprehensive platform designed to revolutionize the way administrators manage orders and products for eCommerce businesses. With its intuitive interface and powerful features, this website simplifies the complexities of eCommerce management, empowering administrators to efficiently handle various tasks and drive business success. It is a powerful tool designed to streamline the management of orders and products for an eCommerce platform.
+## Setup Project
+
+
+### Prerequisites
+
+We need to install or make sure that these tools are pre-installed on your machine:
+
+- [NodeJS and npm](https://nodejs.org/en/download/) : It is a JavaScript runtime build. 
+- [Git](https://git-scm.com/downloads) : It is an open source version control system. 
+
+
+### Installation
+
+1. Clone the Repository
+
+```bash
+https://github.com/Dhananjayyadav1/Admin.git
+```
+
+2. Install packages in the `/admin/` directory
+
+```bash
+npm install
+```
+
+3. In the project directory, you can run:
+
+```bash
+npm run start
+```
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    
+## Preview
 
-### `npm test`
+When you run the server, the dashboard of the Ecommerce Admin appears with the summary and links to products, customers, orders and all the related analysis.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (29)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/2c9032ac-0065-4282-8433-b5fa1e8f4f84)
 
-### `npm run build`
+All Products Page - with action buttons that help to delete a specific order or update a specific product details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (30)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/75fef8ad-db50-41df-8df2-43928bf71b20)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To add a new product to the website, you can go to top-right corner and click on the `+` icon, and a new page will open asking the new products details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (33)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/869c0a58-6892-4312-b247-edc2c26ee497)
 
-### `npm run eject`
+All Customers Page - You can also see all the customers who have visited the website and even can delete a specific user.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (34)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/197faf11-ad5f-497e-88f0-e6cd830ff304)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All Orders Page - You can see all the order placed by customers and can even delete specific order and also see the order details page by clicking on action buttons.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (38)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/44814e82-4481-4d31-af1c-42085a635d5f)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Order Details Page - Here you can see all products that your specific customer had added and also update the status of the products with the help of dropdown.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot (36)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/c554c6be-de1e-4bd1-8377-5dd64712dfff)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+The Account Page - This page displays the admin details of the website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (37)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/08ef8e22-32df-452e-8d22-a85d76803cc4)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The Website is also completely responsive.
 
-### Making a Progressive Web App
+![Screenshot 2024-03-15 000752](https://github.com/Dhananjayyadav1/Admin/assets/125129212/a3d23165-e89f-4d9b-9b56-fbf6a5c7eb35)
+![Screenshot 2024-03-15 000816](https://github.com/Dhananjayyadav1/Admin/assets/125129212/32555902-12c6-4d3f-b3e6-290293bacfb9)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+
+- Aesthetic and simple user friendly design
+- Complete information on Dashboard with graphs
+- Product Management
+- Customer Management
+- Order Management
+- Completely responsive
+
+
+## Author
+
+
+Dhananjay Yadav
+- [dhananjayyadav6264385920@gmail.com](mailto:dhananjayyadav6264385920@gmail.com)
+
