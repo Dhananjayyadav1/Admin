@@ -42,6 +42,7 @@ export const orderData = [
         shippingPrice: 12.00,
         totalPrice: 130.22,
         orderStatus: "Ordered",
+        expectedAt: "2024-03-15T08:00:00.000Z",
         createdAt: "2024-03-13T08:00:00.000Z"
     },
     {
@@ -87,7 +88,8 @@ export const orderData = [
         shippingPrice: 15.00,
         totalPrice: 197.72,
         orderStatus: "Shipped",
-        createdAt: "2024-03-13T08:00:00.000Z"
+        expectedAt: "2024-03-16T11:00:00.000Z",
+        createdAt: "2024-03-11T11:00:00.000Z"
     },
     {
         id: "6453mmm47590abc123786789",
@@ -142,6 +144,7 @@ export const orderData = [
         shippingPrice: 8.00,
         totalPrice: 126.20,
         orderStatus: "Delivered",
-        createdAt: "2024-03-13T08:00:00.000Z"
+        expectedAt: "2024-03-11T09:00:00.000Z",
+        createdAt: "2024-03-07T09:00:00.000Z"
     },
 ]

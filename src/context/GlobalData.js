@@ -10,6 +10,7 @@ const GlobalData = ({ children }) => {
   const [customers, setCustomers] = useState(customerData);
   const [orders, setOrders] = useState(orderData);
 
+
   const addProduct = (newProduct) => {
     setProducts([...products, newProduct]);
   };
@@ -82,8 +83,20 @@ const GlobalData = ({ children }) => {
     return totalSales;
   }
 
+  const makeEvents = () => {
+    let events = new Array(orders.length);
+    for(let i=0;i<orders.length;i++) {
+      events[i] = {};
+      events[i].start = new Date(orders[i].createdAt);
+      events[i].end = new Date(orders[i].expectedAt);
+      events[i].title = (customers.filter(customer => customer.id === orders[i].user)[0] ? customers.filter(customer => customer.id === orders[i].user)[0].name : "User has been deleted") + ` - ${orders[i].orderStatus}`;
+    }
+    console.log(events);
+    return events;
+  }
+
   return (
-    <GlobalContext.Provider value={{ products, addProduct, updateProduct, deleteProduct, customers, deleteCustomer, deleteOrder, orders, calculateTotal, allCategories, totalProducts, totalStock, outOfStock, updateStatus }}>
+    <GlobalContext.Provider value={{ products, addProduct, updateProduct, deleteProduct, customers, deleteCustomer, deleteOrder, orders, calculateTotal, allCategories, totalProducts, totalStock, outOfStock, updateStatus, makeEvents }}>
       {children}
     </GlobalContext.Provider>
   );

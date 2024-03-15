@@ -8,6 +8,15 @@
 ## Description
 
 The Ecommerce Admin Website is a comprehensive platform designed to revolutionize the way administrators manage orders and products for eCommerce businesses. With its intuitive interface and powerful features, this website simplifies the complexities of eCommerce management, empowering administrators to efficiently handle various tasks and drive business success. It is a powerful tool designed to streamline the management of orders and products for an eCommerce platform.
+## Deployment Link
+
+The website is live here :
+
+```bash
+  https://adminbydhananjay.netlify.app/
+```
+
+
 ## Setup Project
 
 
@@ -69,6 +78,10 @@ Order Details Page - Here you can see all products that your specific customer h
 
 ![Screenshot (36)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/c554c6be-de1e-4bd1-8377-5dd64712dfff)
 
+CalenderView Page - This page shows a big calender view on the screen with order status, delivery date, and name of the customer.
+
+![Screenshot (42)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/ba0078d5-d708-46be-9f1c-b54240111628)
+
 
 The Account Page - This page displays the admin details of the website.
 
@@ -77,8 +90,8 @@ The Account Page - This page displays the admin details of the website.
 
 The Website is also completely responsive.
 
-![Screenshot 2024-03-15 000752](https://github.com/Dhananjayyadav1/Admin/assets/125129212/a3d23165-e89f-4d9b-9b56-fbf6a5c7eb35)
-![Screenshot 2024-03-15 000816](https://github.com/Dhananjayyadav1/Admin/assets/125129212/32555902-12c6-4d3f-b3e6-290293bacfb9)
+![IMG_20240315_095930](https://github.com/Dhananjayyadav1/Admin/assets/125129212/c53788a1-cf1b-49a7-8eca-0bcd9aeae9e5)
+
 
 
 
@@ -93,6 +106,7 @@ The Website is also completely responsive.
 - Product Management
 - Customer Management
 - Order Management
+- Calender View of Orders
 - Completely responsive
 
 
