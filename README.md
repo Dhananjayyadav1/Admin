@@ -53,7 +53,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
     
 ## Preview
 
-When you run the server, the dashboard of the Ecommerce Admin appears with the summary and links to products, customers, orders and all the related analysis.
+Dashboard Page - When you run the server, the dashboard of the Ecommerce Admin appears with the summary and links to products, customers, orders and all the related analysis.
 
 ![Screenshot (29)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/2c9032ac-0065-4282-8433-b5fa1e8f4f84)
 
@@ -61,7 +61,7 @@ All Products Page - with action buttons that help to delete a specific order or 
 
 ![Screenshot (30)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/75fef8ad-db50-41df-8df2-43928bf71b20)
 
-To add a new product to the website, you can go to top-right corner and click on the `+` icon, and a new page will open asking the new products details.
+Add Product Page - To add a new product to the website, you can go to top-right corner and click on the `+` icon, and a new page will open asking the new products details.
 
 ![Screenshot (33)](https://github.com/Dhananjayyadav1/Admin/assets/125129212/869c0a58-6892-4312-b247-edc2c26ee497)
 
